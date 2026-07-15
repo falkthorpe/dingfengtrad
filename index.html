@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="theme-color" content="#000000" />
+<title>dingfengtrad.com — Engineering Calm Digital Experiences</title>
+<meta name="description" content="dingfengtrad is an engineering collective dedicated to minimalist, privacy-first, and experience-driven digital products. We craft programmatic technology and immersive interaction design for the global Apple App Store ecosystem." />
+<meta name="keywords" content="dingfengtrad, programmatic technology, privacy-first, minimalist design, immersive UX, app studio, app store, indie apps, automation, audio synthesis, visual interaction" />
+<meta name="author" content="dingfengtrad.com" />
+<meta name="robots" content="index,follow,max-image-preview:large" />
+<meta name="googlebot" content="index,follow" />
+<meta name="rating" content="general" />
+<meta name="distribution" content="global" />
+<meta name="revisit-after" content="7 days" />
+<link rel="canonical" href="https://dingfengtrad.com/" />
+
+<!-- Open Graph -->
+<meta property="og:site_name" content="dingfengtrad.com" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="dingfengtrad — Engineering Calm Digital Experiences" />
+<meta property="og:description" content="An R&D collective focused on programmatic technology, immersive design, and uncompromising privacy." />
+<meta property="og:url" content="https://dingfengtrad.com/" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:image" content="https://dingfengtrad.com/images/og-cover.png" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:image:alt" content="dingfengtrad - Engineering calm digital experiences" />
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="dingfengtrad — Engineering Calm Digital Experiences" />
+<meta name="twitter:description" content="Minimalist design, privacy first, experience supreme. Programmatic technology for the App Store." />
+
+<!-- Schema.org Organization -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "dingfengtrad",
+  "alternateName": "dingfengtrad.com",
+  "url": "https://dingfengtrad.com/",
+  "logo": "https://dingfengtrad.com/images/logo.svg",
+  "description": "Engineering collective dedicated to minimalist, privacy-first, experience-driven digital products.",
+  "email": "contact@dingfengtrad.com",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Virginia Innovation Center",
+    "addressCountry": "US"
+  },
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "email": "contact@dingfengtrad.com",
+    "contactType": "customer support",
+    "availableLanguage": ["English"]
+  },
+  "sameAs": []
+}
+</script>
+
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><defs><linearGradient id='g' x1='0' x2='1' y1='0' y2='1'><stop offset='0' stop-color='%2300d4ff'/><stop offset='1' stop-color='%237c3aed'/></linearGradient></defs><path d='M16 2 L28 9 L28 23 L16 30 L4 23 L4 9 Z' fill='none' stroke='url(%23g)' stroke-width='2'/><circle cx='16' cy='16' r='4' fill='url(%23g)'/></svg>" />
+<link rel="stylesheet" href="css/main.css" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- ============== HEADER ============== -->
+<header class="site-header">
+  <div class="container nav-row">
+    <a href="index.html" class="brand" aria-label="dingfengtrad home">
+      <svg class="brand-logo" viewBox="0 0 56 56" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <defs><linearGradient id="hdg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#00d4ff"/><stop offset="1" stop-color="#7c3aed"/></linearGradient></defs>
+        <path d="M28 4 L48 16 L48 40 L28 52 L8 40 L8 16 Z" fill="none" stroke="url(#hdg)" stroke-width="2"/>
+        <path d="M28 4 L28 52 M8 16 L48 40 M8 40 L48 16" stroke="url(#hdg)" stroke-width="1" opacity=".5"/>
+        <circle cx="28" cy="28" r="5" fill="url(#hdg)"/>
+        <circle cx="28" cy="28" r="9" fill="none" stroke="#00d4ff" stroke-width="1" opacity=".6"/>
+      </svg>
+      <div>
+        <div class="brand-name">dingfeng<span style="color:var(--color-accent)">trad</span></div>
+        <div class="brand-tag">Tech · Design · Privacy</div>
+      </div>
+    </a>
+
+    <nav class="primary-nav" aria-label="Primary navigation">
+      <a href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="advantages.html">Advantages</a>
+      <a href="updates.html">Updates</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+
+    <a href="contact.html" class="nav-cta">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+      Get in Touch
+    </a>
+
+    <button class="nav-toggle" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- ============== HERO ============== -->
+<section class="hero">
+  <canvas id="hero-canvas" style="position:absolute;inset:0;width:100%;height:100%;z-index:1;"></canvas>
+  <div class="hero-grid-bg"></div>
+  <div class="hero-orb one"></div>
+  <div class="hero-orb two"></div>
+
+  <div class="container hero-inner">
+    <div class="hero-pretitle">
+      <span class="dot"></span>
+      <span>R&D collective · Virginia, USA</span>
+    </div>
+
+    <h1 class="reveal">
+      Engineering<br />
+      <span class="text-gradient">calm</span> in the age<br />
+      of <span class="text-gradient-green">digital noise</span>.
+    </h1>
+
+    <p class="hero-sub reveal reveal-delay-1">
+      We are a research-driven team obsessed with the intersection of <strong style="color:#fff">technology</strong>,
+      <strong style="color:#fff">privacy</strong>, and <strong style="color:#fff">experience</strong>.
+      Every app we ship is built around three uncompromising pillars — <em>minimalist design</em>,
+      <em>privacy-first engineering</em>, and <em>experience-driven interaction</em>.
+    </p>
+
+    <div class="hero-actions reveal reveal-delay-2">
+      <a href="services.html" class="btn btn-primary btn-arrow">
+        Explore Our Work
+        <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+      </a>
+      <a href="contact.html" class="btn btn-ghost">Start a Project</a>
+    </div>
+
+    <div class="hero-stats reveal reveal-delay-3">
+      <div>
+        <div class="stat-num"><span data-counter="12">0</span><span style="color:var(--color-accent)">+</span></div>
+        <div class="stat-label">App Store Titles</div>
+      </div>
+      <div>
+        <div class="stat-num" data-counter="100" data-suffix="%">0</div>
+        <div class="stat-label">Local Data Processing</div>
+      </div>
+      <div>
+        <div class="stat-num"><span data-counter="4">0</span></div>
+        <div class="stat-label">Vertical Categories</div>
+      </div>
+      <div>
+        <div class="stat-num"><span data-counter="36">0</span><span style="color:var(--color-accent)">+</span></div>
+        <div class="stat-label">Months Engineering</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============== MARQUEE ============== -->
+<div class="marquee">
+  <div class="marquee-track">
+    <span class="marquee-item"><span class="dot"></span>Programmatic Audio Synthesis</span>
+    <span class="marquee-item"><span class="dot"></span>Visual Interaction Design</span>
+    <span class="marquee-item"><span class="dot"></span>Privacy-First Architecture</span>
+    <span class="marquee-item"><span class="dot"></span>Local Automation Scripts</span>
+    <span class="marquee-item"><span class="dot"></span>Immersive UX Engineering</span>
+    <span class="marquee-item"><span class="dot"></span>Encrypted Asset Vaults</span>
+    <span class="marquee-item"><span class="dot"></span>Minimalist Visual Systems</span>
+    <span class="marquee-item"><span class="dot"></span>Programmatic Audio Synthesis</span>
+    <span class="marquee-item"><span class="dot"></span>Visual Interaction Design</span>
+    <span class="marquee-item"><span class="dot"></span>Privacy-First Architecture</span>
+    <span class="marquee-item"><span class="dot"></span>Local Automation Scripts</span>
+    <span class="marquee-item"><span class="dot"></span>Immersive UX Engineering</span>
+    <span class="marquee-item"><span class="dot"></span>Encrypted Asset Vaults</span>
+    <span class="marquee-item"><span class="dot"></span>Minimalist Visual Systems</span>
+  </div>
+</div>
+
+<!-- ============== ABOUT ============== -->
+<section>
+  <div class="container">
+    <div class="section-head reveal">
+      <div>
+        <span class="eyebrow">Who We Are</span>
+        <h2>A studio where<br /><span class="text-gradient">technology</span> meets humanity.</h2>
+      </div>
+      <p>
+        Beyond conventional service offerings, we are an R&D collective obsessed with the fusion of
+        technological innovation and user experience. With deep roots in programmatic generation
+        and immersive interaction design, we build digital products that carry both engineered
+        precision and human warmth — pure, secure, and efficient by default.
+      </p>
+    </div>
+
+    <div class="feature-grid">
+      <div class="feature reveal" data-tilt>
+        <div class="feature-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 3l3.5 18 5.5-7 10.5-3-19.5-8z"/><path d="M12 14l5 8 1.5-7.5"/></svg>
+        </div>
+        <span class="feature-tag">01 · Design</span>
+        <h3>Minimalism that breathes.</h3>
+        <p>Every pixel earns its place. We refuse redundant ornament, choosing instead an elegant simplicity that lets intent and emotion lead.</p>
+      </div>
+
+      <div class="feature reveal reveal-delay-1" data-tilt>
+        <div class="feature-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 2l8 4v6c0 5-3.5 9-8 10-4.5-1-8-5-8-10V6l8-4z"/><path d="M9 12l2 2 4-4"/></svg>
+        </div>
+        <span class="feature-tag">02 · Privacy</span>
+        <h3>Data sovereignty by design.</h3>
+        <p>Local-first processing by default. Zero unnecessary cloud syncing, zero behavioral tracking. Your data stays on your device, governed by you.</p>
+      </div>
+
+      <div class="feature reveal reveal-delay-2" data-tilt>
+        <div class="feature-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/><path d="M3 12c0-5 4-9 9-9"/></svg>
+        </div>
+        <span class="feature-tag">03 · Experience</span>
+        <h3>Zen-like interaction flows.</h3>
+        <p>Calm interfaces that invite focus. Each animation is intentional, each transition meaningful — interaction as a form of mindfulness.</p>
+      </div>
+
+      <div class="feature reveal" data-tilt>
+        <div class="feature-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 4h16v4H4z"/><path d="M4 10h16v4H4z"/><path d="M4 16h16v4H4z"/><circle cx="7" cy="6" r=".5"/><circle cx="7" cy="12" r=".5"/><circle cx="7" cy="18" r=".5"/></svg>
+        </div>
+        <span class="feature-tag">04 · Engineering</span>
+        <h3>Programmatic generation.</h3>
+        <p>We break free from static, hand-coded patterns. Our systems generate infinite, organic, and personalized interactions on the fly.</p>
+      </div>
+
+      <div class="feature reveal reveal-delay-1" data-tilt>
+        <div class="feature-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 12c3-6 15-6 18 0"/><path d="M3 12c3 6 15 6 18 0"/><circle cx="12" cy="12" r="2.5"/></svg>
+        </div>
+        <span class="feature-tag">05 · Audio</span>
+        <h3>Procedural sound design.</h3>
+        <p>Programmatic audio synthesis creates textures and rhythms that no sample library could ever replicate. Sound as living material.</p>
+      </div>
+
+      <div class="feature reveal reveal-delay-2" data-tilt>
+        <div class="feature-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="18" height="18" rx="3"/><path d="M3 9h18M9 21V9"/></svg>
+        </div>
+        <span class="feature-tag">06 · Composition</span>
+        <h3>Modular by architecture.</h3>
+        <p>Every product is composed from independent, testable modules — easily extended, easily audited, easily trusted by the people who depend on them.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============== APP PORTFOLIO ============== -->
+<section class="section" style="background: linear-gradient(180deg, var(--color-bg) 0%, var(--color-bg-2) 100%);">
+  <div class="container">
+    <div class="section-head reveal">
+      <div>
+        <span class="eyebrow">App Portfolio</span>
+        <h2>Tools with <span class="text-gradient-green">character</span>,<br />built around real needs.</h2>
+      </div>
+      <p>
+        We publish a tightly curated matrix of applications across automation, asset management,
+        fitness, real-estate, creative storage, and personal finance — every one engineered with
+        absolute local-data commitment.
+      </p>
+    </div>
+
+    <div class="app-grid">
+      <article class="app-card reveal" data-tilt>
+        <div class="app-visual">
+          <svg viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice">
+            <defs>
+              <linearGradient id="ag1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#00d4ff"/><stop offset="1" stop-color="#7c3aed"/></linearGradient>
+            </defs>
+            <rect width="400" height="200" fill="#0a0a0a"/>
+            <g opacity="0.35"><circle cx="320" cy="100" r="80" fill="url(#ag1)"/><circle cx="80" cy="100" r="60" fill="url(#ag1)"/></g>
+            <g stroke="#00d4ff" stroke-width="1" fill="none" opacity="0.7">
+              <rect x="50" y="50" width="40" height="40" rx="4"/>
+              <rect x="100" y="50" width="40" height="40" rx="4"/>
+              <rect x="150" y="50" width="40" height="40" rx="4"/>
+              <path d="M70 90 L120 90 M120 90 L170 90"/>
+              <rect x="50" y="120" width="40" height="40" rx="4"/>
+              <rect x="100" y="120" width="40" height="40" rx="4"/>
+              <path d="M70 160 L120 160"/>
+            </g>
+            <g fill="#fff" font-family="JetBrains Mono, monospace" font-size="9" opacity="0.7">
+              <text x="240" y="60">[ auto.run ]</text>
+              <text x="240" y="80">$ ./schedule start</text>
+              <text x="240" y="100">→ executing 03 tasks</text>
+              <text x="240" y="120">→ 01 backup.pdf</text>
+              <text x="240" y="140">→ 02 sync.local</text>
+              <text x="240" y="160">✓ done.</text>
+            </g>
+          </svg>
+        </div>
+        <div class="app-body">
+          <span class="app-cat">Automation</span>
+          <h3>Loomflow — Local Workflow Automation</h3>
+          <p>A local scripting engine that turns repeatable digital chores into one-tap routines — no cloud calls, no telemetry leakage.</p>
+          <div class="app-meta">
+            <span>● iOS / iPadOS</span>
+            <span>● macOS</span>
+            <span>v 2.4.1</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="app-card reveal reveal-delay-1" data-tilt>
+        <div class="app-visual">
+          <svg viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice">
+            <rect width="400" height="200" fill="#0a0a0a"/>
+            <g opacity="0.5"><circle cx="80" cy="100" r="70" fill="#7c3aed"/><circle cx="320" cy="100" r="50" fill="#00ffa3"/></g>
+            <g stroke="#fff" stroke-width="0.8" fill="none" opacity="0.9">
+              <path d="M40 160 L120 120 L200 130 L280 80 L360 100"/>
+              <circle cx="40" cy="160" r="3" fill="#00d4ff"/>
+              <circle cx="120" cy="120" r="3" fill="#00d4ff"/>
+              <circle cx="200" cy="130" r="3" fill="#00d4ff"/>
+              <circle cx="280" cy="80" r="3" fill="#00d4ff"/>
+              <circle cx="360" cy="100" r="3" fill="#00d4ff"/>
+            </g>
+            <g fill="#fff" font-family="Space Grotesk, sans-serif">
+              <text x="40" y="50" font-size="22" font-weight="600">$ 4,820.00</text>
+              <text x="40" y="68" font-size="9" fill="#00ffa3" font-family="JetBrains Mono, monospace">+12.4% vs last quarter</text>
+            </g>
+            <g fill="#fff" font-family="JetBrains Mono, monospace" font-size="8" opacity="0.7">
+              <text x="40" y="180">↗ trend inference · 30-day rolling window</text>
+            </g>
+          </svg>
+        </div>
+        <div class="app-body">
+          <span class="app-cat">Asset Valuation</span>
+          <h3>Vellum — Collection Value Engine</h3>
+          <p>Dynamic valuation modeling for collectors — watches, sneakers, cards, vinyl — with offline-first ledgers and zero broker syncing.</p>
+          <div class="app-meta">
+            <span>● iOS</span>
+            <span>● Apple Watch</span>
+            <span>v 1.7.0</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="app-card reveal reveal-delay-2" data-tilt>
+        <div class="app-visual">
+          <svg viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice">
+            <rect width="400" height="200" fill="#0a0a0a"/>
+            <g transform="translate(60 100)">
+              <circle r="36" fill="none" stroke="#00d4ff" stroke-width="3"/>
+              <path d="M0 -36 A36 36 0 0 1 31 18" fill="none" stroke="#00ffa3" stroke-width="3"/>
+            </g>
+            <g fill="#fff" font-family="Space Grotesk, sans-serif" transform="translate(140 80)">
+              <text font-size="34" font-weight="700">7,842</text>
+              <text y="20" font-size="10" fill="#808080" font-family="JetBrains Mono, monospace">STREAK · DAYS</text>
+            </g>
+            <g stroke="#fff" stroke-width="0.8" opacity="0.5">
+              <rect x="60" y="160" width="14" height="14" rx="2"/>
+              <rect x="80" y="160" width="14" height="14" rx="2"/>
+              <rect x="100" y="160" width="14" height="14" rx="2"/>
+              <rect x="120" y="160" width="14" height="14" rx="2"/>
+              <rect x="140" y="160" width="14" height="14" rx="2"/>
+              <rect x="160" y="160" width="14" height="14" rx="2"/>
+              <rect x="180" y="160" width="14" height="14" rx="2" fill="#00d4ff" opacity="0.8"/>
+            </g>
+            <g fill="#808080" font-family="JetBrains Mono, monospace" font-size="9">
+              <text x="240" y="40">POSTURE</text>
+              <text x="240" y="58" fill="#00ffa3">excellent · 96%</text>
+              <text x="240" y="100">FLEXIBILITY</text>
+              <text x="240" y="118" fill="#00d4ff">good · 78%</text>
+              <text x="240" y="160">BALANCE</text>
+              <text x="240" y="178" fill="#00ffa3">great · 88%</text>
+            </g>
+          </svg>
+        </div>
+        <div class="app-body">
+          <span class="app-cat">Fitness</span>
+          <h3>Posture Pulse — Body Composition Log</h3>
+          <p>Daily posture, balance, and movement telemetry — captured via device sensors, stored privately, never uploaded.</p>
+          <div class="app-meta">
+            <span>● iOS</span>
+            <span>● watchOS</span>
+            <span>v 3.0.2</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="app-card reveal" data-tilt>
+        <div class="app-visual">
+          <svg viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice">
+            <rect width="400" height="200" fill="#0a0a0a"/>
+            <g transform="translate(60 30)" opacity="0.95">
+              <rect width="120" height="140" rx="6" fill="#111" stroke="#7c3aed" stroke-width="1.5"/>
+              <rect x="14" y="14" width="92" height="6" rx="1" fill="#7c3aed" opacity="0.6"/>
+              <rect x="14" y="28" width="60" height="6" rx="1" fill="#fff" opacity="0.5"/>
+              <circle cx="30" cy="56" r="6" fill="#00d4ff"/>
+              <text x="46" y="60" font-family="Space Grotesk" font-size="10" fill="#fff">OWNER</text>
+              <rect x="14" y="74" width="92" height="6" rx="1" fill="#fff" opacity="0.3"/>
+              <rect x="14" y="86" width="70" height="6" rx="1" fill="#fff" opacity="0.3"/>
+              <rect x="14" y="106" width="92" height="14" rx="2" fill="#00d4ff" opacity="0.15"/>
+              <text x="20" y="116" font-family="JetBrains Mono" font-size="8" fill="#00d4ff">[ ENCRYPTED ]</text>
+            </g>
+            <g transform="translate(220 60)">
+              <rect width="140" height="20" rx="4" fill="#1a1a1a"/>
+              <text x="10" y="14" font-family="JetBrains Mono" font-size="10" fill="#00ffa3">AES-256 · device-only</text>
+              <text y="42" font-family="JetBrains Mono" font-size="9" fill="#808080">BIOMETRIC</text>
+              <text y="58" font-family="JetBrains Mono" font-size="9" fill="#fff">Face ID · Touch ID</text>
+              <text y="84" font-family="JetBrains Mono" font-size="9" fill="#808080">BACKUP</text>
+              <text y="100" font-family="JetBrains Mono" font-size="9" fill="#fff">iCloud · end-to-end</text>
+            </g>
+          </svg>
+        </div>
+        <div class="app-body">
+          <span class="app-cat">Document Security</span>
+          <h3>Titular — Encrypted Document Vault</h3>
+          <p>Titles, deeds, certificates, warranties — secured behind device-only cryptography. Biometric gate, zero online exposure.</p>
+          <div class="app-meta">
+            <span>● iOS</span>
+            <span>● macOS</span>
+            <span>v 1.2.0</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="app-card reveal reveal-delay-1" data-tilt>
+        <div class="app-visual">
+          <svg viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice">
+            <rect width="400" height="200" fill="#0a0a0a"/>
+            <g opacity="0.4">
+              <circle cx="200" cy="100" r="100" fill="none" stroke="#00d4ff" stroke-width="1"/>
+              <circle cx="200" cy="100" r="60" fill="none" stroke="#7c3aed" stroke-width="1"/>
+              <circle cx="200" cy="100" r="20" fill="none" stroke="#00ffa3" stroke-width="1"/>
+            </g>
+            <g fill="#fff" font-family="Space Grotesk">
+              <g transform="translate(50 60)">
+                <circle r="22" fill="#111" stroke="#00d4ff" stroke-width="1"/>
+                <text y="5" text-anchor="middle" font-size="18">✦</text>
+                <text y="40" text-anchor="middle" font-size="9" fill="#808080" font-family="JetBrains Mono">IDEA</text>
+              </g>
+              <g transform="translate(140 130)">
+                <circle r="20" fill="#111" stroke="#7c3aed" stroke-width="1"/>
+                <text y="5" text-anchor="middle" font-size="14">⌘</text>
+                <text y="38" text-anchor="middle" font-size="9" fill="#808080" font-family="JetBrains Mono">LOGIC</text>
+              </g>
+              <g transform="translate(240 60)">
+                <circle r="20" fill="#111" stroke="#00ffa3" stroke-width="1"/>
+                <text y="5" text-anchor="middle" font-size="14">◑</text>
+                <text y="38" text-anchor="middle" font-size="9" fill="#808080" font-family="JetBrains Mono">VISUAL</text>
+              </g>
+              <g transform="translate(330 130)">
+                <circle r="22" fill="#111" stroke="#00d4ff" stroke-width="1"/>
+                <text y="5" text-anchor="middle" font-size="14">∞</text>
+                <text y="40" text-anchor="middle" font-size="9" fill="#808080" font-family="JetBrains Mono">DRAFT</text>
+              </g>
+            </g>
+            <g stroke="#666" stroke-width="0.6" fill="none" opacity="0.5">
+              <path d="M50 60 L140 130 M140 130 L240 60 M240 60 L330 130"/>
+            </g>
+          </svg>
+        </div>
+        <div class="app-body">
+          <span class="app-cat">Creative Capture</span>
+          <h3>Fragmenta — Inspiration Organizer</h3>
+          <p>Capture sparks — text, sketches, voice, screenshots — and watch them auto-classified into a private constellation of ideas.</p>
+          <div class="app-meta">
+            <span>● iOS</span>
+            <span>● iPadOS</span>
+            <span>v 2.0.5</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="app-card reveal reveal-delay-2" data-tilt>
+        <div class="app-visual">
+          <svg viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice">
+            <rect width="400" height="200" fill="#0a0a0a"/>
+            <g transform="translate(200 100)">
+              <circle r="60" fill="none" stroke="#1a1a1a" stroke-width="14"/>
+              <path d="M0 -60 A60 60 0 0 1 50 35" fill="none" stroke="#00d4ff" stroke-width="14"/>
+              <path d="M0 -60 A60 60 0 0 1 -30 52" fill="none" stroke="#7c3aed" stroke-width="14"/>
+            </g>
+            <g fill="#fff" font-family="Space Grotesk" text-anchor="middle">
+              <text x="200" y="40" font-size="10" font-family="JetBrains Mono" fill="#808080">SPEND · BUDGET · SAVE</text>
+              <text x="200" y="105" font-size="36" font-weight="700">62%</text>
+              <text x="200" y="124" font-size="9" fill="#00ffa3" font-family="JetBrains Mono">on track</text>
+            </g>
+            <g fill="#808080" font-family="JetBrains Mono" font-size="9">
+              <text x="40" y="180">$ 3,240 / 5,000</text>
+              <text x="320" y="180" fill="#00d4ff">11 / 30 d</text>
+            </g>
+          </svg>
+        </div>
+        <div class="app-body">
+          <span class="app-cat">Personal Finance</span>
+          <h3>Kairos — Periodic Budget Engine</h3>
+          <p>Cycle-aware budgeting that respects how money actually moves through a month — not how spreadsheets want it to.</p>
+          <div class="app-meta">
+            <span>● iOS</span>
+            <span>● Apple Watch</span>
+            <span>v 1.5.3</span>
+          </div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============== PROCESS ============== -->
+<section>
+  <div class="container">
+    <div class="section-head reveal">
+      <div>
+        <span class="eyebrow">How We Build</span>
+        <h2>Engineering<br /><span class="text-gradient">rituals</span> of craft.</h2>
+      </div>
+      <p>
+        Repetition is the mother of mastery. Every project follows a precise, opinionated chain
+        of steps — refined over years — so that quality isn't an accident but a side-effect of process.
+      </p>
+    </div>
+
+    <div class="process-list">
+      <div class="process-row reveal">
+        <span class="num mono">01</span>
+        <div><h3>Discovery & Brief</h3><p>Listening before sketching. We map the problem space, the constraints, and the unspoken edge cases that shape real outcomes.</p></div>
+        <div><h3>Signal & Silence</h3><p>We distill the user's actual need from the background noise of feature requests. Most great products are built from fewer, sharper ideas.</p></div>
+        <span class="arrow">→</span>
+      </div>
+      <div class="process-row reveal">
+        <span class="num mono">02</span>
+        <div><h3>Architectural Blueprint</h3><p>Choosing the right shape for the right problem. Local-first data, modular boundaries, privacy-by-construction.</p></div>
+        <div><h3>Tech Stack Review</h3><p>From procedural audio pipelines to declarative UI systems — every layer is justified, never inherited by inertia.</p></div>
+        <span class="arrow">→</span>
+      </div>
+      <div class="process-row reveal">
+        <span class="num mono">03</span>
+        <div><h3>Iterative Engineering</h3><p>Short, ruthless cycles. We ship inside the team before we ship outside, polishing every motion, every microcopy, every edge.</p></div>
+        <div><h3>Quality as Ritual</h3><p>Test coverage, accessibility, performance budgets. We treat quality not as a phase but as the daily texture of engineering.</p></div>
+        <span class="arrow">→</span>
+      </div>
+      <div class="process-row reveal">
+        <span class="num mono">04</span>
+        <div><h3>Launch & Telemetry-off</h3><p>Release to the App Store with surgical precision. We measure success, never the user.</p></div>
+        <div><h3>Steady Refinement</h3><p>Bug fixes, micro-improvements, sustainability updates. We keep our products feeling new for years, not weekends.</p></div>
+        <span class="arrow">→</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============== CTA ============== -->
+<section style="padding: 140px 0; position: relative; overflow: hidden;">
+  <div class="hero-orb" style="top: 50%; left: 50%; transform: translate(-50%, -50%); opacity: 0.6;"></div>
+  <div class="container">
+    <div class="reveal" style="text-align:center; max-width: 760px; margin: 0 auto;">
+      <span class="eyebrow" style="padding-left:0;">Ready to Begin</span>
+      <span class="eyebrow" style="padding-left:0;"></span>
+      <h2 style="margin-top:8px;">Let's build something<br /><span class="text-gradient">deliberate</span>.</h2>
+      <p style="font-size:1.125rem; max-width:560px; margin: 24px auto 40px;">
+        Whether you're a publisher, a partner, or simply curious about our work —
+        we welcome thoughtful conversations.
+      </p>
+      <div style="display:flex; gap:16px; justify-content:center; flex-wrap: wrap;">
+        <a href="contact.html" class="btn btn-accent btn-arrow">
+          Start a Conversation
+          <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+        </a>
+        <a href="services.html" class="btn btn-ghost">Explore Services</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============== FOOTER ============== -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="brand" aria-label="dingfengtrad">
+          <svg class="brand-logo" viewBox="0 0 56 56" xmlns="http://www.w3.org/2000/svg">
+            <defs><linearGradient id="fdg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#00d4ff"/><stop offset="1" stop-color="#7c3aed"/></linearGradient></defs>
+            <path d="M28 4 L48 16 L48 40 L28 52 L8 40 L8 16 Z" fill="none" stroke="url(#fdg)" stroke-width="2"/>
+            <circle cx="28" cy="28" r="5" fill="url(#fdg)"/>
+            <circle cx="28" cy="28" r="9" fill="none" stroke="#00d4ff" opacity=".6"/>
+          </svg>
+          <div>
+            <div class="brand-name">dingfeng<span style="color:var(--color-accent)">trad</span></div>
+            <div class="brand-tag">Tech · Design · Privacy</div>
+          </div>
+        </a>
+        <p>An R&D collective crafting minimalist, privacy-first digital products for the global App Store ecosystem. Headquartered at the Virginia Innovation Center, USA.</p>
+        <p style="font-family: var(--font-mono); font-size: 0.8rem; color: var(--color-text-3);">contact@dingfengtrad.com</p>
+      </div>
+
+      <div class="footer-col">
+        <h5>Studio</h5>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="advantages.html">Advantages</a></li>
+          <li><a href="updates.html">Updates</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h5>Capabilities</h5>
+        <ul>
+          <li><a href="services.html#prog-audio">Programmatic Audio</a></li>
+          <li><a href="services.html#visual-ux">Visual Interaction</a></li>
+          <li><a href="services.html#privacy">Privacy Engineering</a></li>
+          <li><a href="services.html#automation">Local Automation</a></li>
+          <li><a href="services.html#creative">Creative Capture</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h5>Legal</h5>
+        <ul>
+          <li><a href="privacy.html">Privacy Policy</a></li>
+          <li><a href="terms.html">Terms of Service</a></li>
+          <li><a href="privacy.html#cookies">Cookies & Tracking</a></li>
+          <li><a href="privacy.html#children">Children's Privacy</a></li>
+          <li><a href="privacy.html#contact">Compliance Contact</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div>© 2024–2026 dingfengtrad.com · All rights reserved.</div>
+      <div>Virginia Innovation Center · United States of America</div>
+    </div>
+  </div>
+</footer>
+
+<!-- Back to top -->
+<button class="back-top" aria-label="Back to top">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+</button>
+
+<script src="js/main.js"></script>
+<script src="js/particles.js"></script>
+</body>
+</html>

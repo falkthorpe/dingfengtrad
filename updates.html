@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="theme-color" content="#000000" />
+<title>Team Updates — dingfengtrad.com</title>
+<meta name="description" content="News, releases, and engineering notes from the dingfengtrad studio. Read about our latest app store releases, R&D progress, design philosophy, and roadmap." />
+<meta name="keywords" content="dingfengtrad updates, news, changelog, app store releases, indie app studio blog" />
+<meta name="robots" content="index,follow" />
+<link rel="canonical" href="https://dingfengtrad.com/updates.html" />
+<meta property="og:title" content="Team Updates — dingfengtrad" />
+<meta property="og:description" content="Latest releases, R&D notes, and roadmap from the dingfengtrad studio." />
+<meta property="og:url" content="https://dingfengtrad.com/updates.html" />
+<meta name="twitter:card" content="summary_large_image" />
+
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><defs><linearGradient id='g' x1='0' x2='1' y1='0' y2='1'><stop offset='0' stop-color='%2300d4ff'/><stop offset='1' stop-color='%237c3aed'/></linearGradient></defs><path d='M16 2 L28 9 L28 23 L16 30 L4 23 L4 9 Z' fill='none' stroke='url(%23g)' stroke-width='2'/><circle cx='16' cy='16' r='4' fill='url(%23g)'/></svg>" />
+<link rel="stylesheet" href="css/main.css" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container nav-row">
+    <a href="index.html" class="brand"><svg class="brand-logo" viewBox="0 0 56 56" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><defs><linearGradient id="hdg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#00d4ff"/><stop offset="1" stop-color="#7c3aed"/></linearGradient></defs><path d="M28 4 L48 16 L48 40 L28 52 L8 40 L8 16 Z" fill="none" stroke="url(#hdg)" stroke-width="2"/><path d="M28 4 L28 52 M8 16 L48 40 M8 40 L48 16" stroke="url(#hdg)" stroke-width="1" opacity=".5"/><circle cx="28" cy="28" r="5" fill="url(#hdg)"/><circle cx="28" cy="28" r="9" fill="none" stroke="#00d4ff" stroke-width="1" opacity=".6"/></svg><div><div class="brand-name">dingfeng<span style="color:var(--color-accent)">trad</span></div><div class="brand-tag">Tech · Design · Privacy</div></div></a>
+    <nav class="primary-nav"><a href="index.html">Home</a><a href="services.html">Services</a><a href="advantages.html">Advantages</a><a href="updates.html">Updates</a><a href="contact.html">Contact</a></nav>
+    <a href="contact.html" class="nav-cta"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg>Get in Touch</a>
+    <button class="nav-toggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<section class="hero" style="min-height: 60vh;">
+  <canvas id="hero-canvas" style="position:absolute;inset:0;width:100%;height:100%;z-index:1;"></canvas>
+  <div class="hero-grid-bg"></div>
+  <div class="hero-orb one"></div>
+  <div class="hero-orb two"></div>
+  <div class="container hero-inner">
+    <div class="hero-pretitle"><span class="dot"></span><span>Studio log · 2024–2026</span></div>
+    <h1 class="reveal">Notes, releases,<br />and <span class="text-gradient">roadmap</span>.</h1>
+    <p class="hero-sub reveal reveal-delay-1">A living record of what we're building, releasing, learning, and shipping next. Written by engineers, not marketers.</p>
+  </div>
+</section>
+
+<!-- Latest featured release -->
+<section>
+  <div class="container">
+    <div class="section-head reveal">
+      <div>
+        <span class="eyebrow">Featured Release</span>
+        <h2>This month's<br /><span class="text-gradient">drop</span>.</h2>
+      </div>
+      <p>The headline update from our engineering calendar — with full change notes, screenshots, and the design rationale behind it.</p>
+    </div>
+
+    <article class="card reveal" style="display: grid; grid-template-columns: 1fr 1fr; gap: 40px; padding: 0; overflow: hidden;">
+      <div style="background: linear-gradient(135deg, #00d4ff22, #7c3aed22); display: flex; align-items: center; justify-content: center; min-height: 340px;">
+        <svg viewBox="0 0 400 340" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
+          <defs><linearGradient id="upd1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#00d4ff"/><stop offset="1" stop-color="#7c3aed"/></linearGradient></defs>
+          <circle cx="200" cy="170" r="140" fill="none" stroke="url(#upd1)" stroke-width="0.5" opacity="0.5"/>
+          <circle cx="200" cy="170" r="100" fill="none" stroke="#00d4ff" stroke-width="0.5" opacity="0.6"/>
+          <circle cx="200" cy="170" r="60" fill="none" stroke="#7c3aed" stroke-width="0.5" opacity="0.7"/>
+          <circle cx="200" cy="170" r="20" fill="url(#upd1)"/>
+          <g fill="#fff" font-family="Space Grotesk">
+            <text x="200" y="40" text-anchor="middle" font-size="14" font-weight="600">v 2.4 — Loomflow</text>
+            <text x="200" y="58" text-anchor="middle" font-size="9" font-family="JetBrains Mono" fill="#808080">JULY · 2026 · RELEASE</text>
+          </g>
+        </svg>
+      </div>
+      <div style="padding: 48px 48px 48px 0;">
+        <span class="app-cat">App Store Release</span>
+        <h3>Loomflow 2.4 — Local Rules Engine</h3>
+        <p style="margin: 16px 0 24px;">We've shipped a major upgrade to our local automation engine. New: visual rule editor, 40+ new triggers (file system, calendar, geofence), share-sheet integration, and 100% offline evaluation.</p>
+        <ul style="margin-bottom: 28px;">
+          <li style="padding: 6px 0; color: var(--color-text-2); font-size: 0.92rem; padding-left: 18px; position: relative;"><span style="position:absolute; left:0; color: var(--color-accent);">▸</span> Visual rule editor — no YAML required</li>
+          <li style="padding: 6px 0; color: var(--color-text-2); font-size: 0.92rem; padding-left: 18px; position: relative;"><span style="position:absolute; left:0; color: var(--color-accent);">▸</span> Geofence triggers via device sensors</li>
+          <li style="padding: 6px 0; color: var(--color-text-2); font-size: 0.92rem; padding-left: 18px; position: relative;"><span style="position:absolute; left:0; color: var(--color-accent);">▸</span> End-to-end encrypted rule sync (optional)</li>
+          <li style="padding: 6px 0; color: var(--color-text-2); font-size: 0.92rem; padding-left: 18px; position: relative;"><span style="position:absolute; left:0; color: var(--color-accent);">▸</span> 50% smaller binary, 2× faster cold-start</li>
+        </ul>
+        <a href="contact.html" class="btn btn-ghost btn-arrow">Read full notes<svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
+      </div>
+    </article>
+  </div>
+</section>
+
+<!-- Recent updates timeline -->
+<section style="background: linear-gradient(180deg, var(--color-bg) 0%, var(--color-bg-2) 100%);">
+  <div class="container">
+    <div class="section-head center reveal">
+      <span class="eyebrow" style="padding-left:0;">Studio Log</span>
+      <h2>Recent updates & engineering notes.</h2>
+      <p>Reverse chronological record. Mix of product releases, R&D milestones, design philosophy pieces, and roadmap previews.</p>
+    </div>
+
+    <div class="timeline">
+      <div class="timeline-item reveal">
+        <div class="node"></div>
+        <div class="card" style="margin-right:30px;">
+          <div class="date">22 July 2026 · RELEASE</div>
+          <h3>Loomflow 2.4 — Visual Rules</h3>
+          <p>Major upgrade to our local automation engine. Adds visual rule editor, geofence triggers, encrypted rule sync, and a 50% binary size reduction.</p>
+          <p style="margin-top: 14px;"><span class="app-cat" style="font-size:0.7rem;">iOS · iPadOS · macOS</span></p>
+        </div>
+      </div>
+
+      <div class="timeline-item right reveal">
+        <div class="node"></div>
+        <div class="card" style="margin-left:30px;">
+          <div class="date">10 July 2026 · R&D</div>
+          <h3>Generative Audio Engine</h3>
+          <p>We shipped a new procedural audio engine for ambient / meditation products. Built on AudioKit + custom DSP, runs in real-time on iPhone 11 and newer with zero audio artifacts.</p>
+        </div>
+      </div>
+
+      <div class="timeline-item reveal">
+        <div class="node"></div>
+        <div class="card" style="margin-right:30px;">
+          <div class="date">28 June 2026 · RELEASE</div>
+          <h3>Posture Pulse 3.0.2</h3>
+          <p>Improved calibration flow. New “Cervical Smoothing” filter that averages out sensor noise. App icon refreshed for visual consistency across the product family.</p>
+          <p style="margin-top: 14px;"><span class="app-cat" style="font-size:0.7rem;">iOS · watchOS</span></p>
+        </div>
+      </div>
+
+      <div class="timeline-item right reveal">
+        <div class="node"></div>
+        <div class="card" style="margin-left:30px;">
+          <div class="date">14 June 2026 · PHILOSOPHY</div>
+          <h3>Why we say “no” to ad networks</h3>
+          <p>An engineering note from our team explaining the privacy trade-offs of ad-mediated free models, and why most of our catalog is premium-only.</p>
+        </div>
+      </div>
+
+      <div class="timeline-item reveal">
+        <div class="node"></div>
+        <div class="card" style="margin-right:30px;">
+          <div class="date">02 June 2026 · RELEASE</div>
+          <h3>Vellum 1.7 — Collection Value Engine</h3>
+          <p>Adds offline valuation modeling for collectible watches, sneakers, cards, vinyl. Rolling 30-day trend inference, fully device-side.</p>
+          <p style="margin-top: 14px;"><span class="app-cat" style="font-size:0.7rem;">iOS · Apple Watch</span></p>
+        </div>
+      </div>
+
+      <div class="timeline-item right reveal">
+        <div class="node"></div>
+        <div class="card" style="margin-left:30px;">
+          <div class="date">19 May 2026 · R&D</div>
+          <h3>Cross-platform privacy manifest</h3>
+          <p>We open-sourced a configuration template for Apple's Privacy Manifest (PrivacyInfo.xcprivacy) so other indie studios can ship ATT-compliant apps faster.</p>
+        </div>
+      </div>
+
+      <div class="timeline-item reveal">
+        <div class="node"></div>
+        <div class="card" style="margin-right:30px;">
+          <div class="date">08 May 2026 · RELEASE</div>
+          <h3>Titular 1.2 — Encrypted Vault</h3>
+          <p>Adds share-extensions, document OCR via on-device Vision framework, and granular biometric re-auth policies.</p>
+          <p style="margin-top: 14px;"><span class="app-cat" style="font-size:0.7rem;">iOS · macOS</span></p>
+        </div>
+      </div>
+
+      <div class="timeline-item right reveal">
+        <div class="node"></div>
+        <div class="card" style="margin-left:30px;">
+          <div class="date">21 April 2026 · ROADMAP</div>
+          <h3>Looking ahead: H2 2026</h3>
+          <p>Three new titles in late-stage development. watchOS deep integration. A long-form essay on local-first architecture is in review.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Newsletter / subscribe -->
+<section>
+  <div class="container">
+    <div class="reveal" style="text-align:center; max-width: 620px; margin: 0 auto;">
+      <span class="eyebrow" style="padding-left:0;">Stay in the loop</span>
+      <h2>Receive releases &<br /><span class="text-gradient">deep-dive notes</span>.</h2>
+      <p style="margin: 24px auto 28px; max-width: 540px;">Quarterly updates from the studio — release notes, R&D essays, and product philosophy. No tracking, no marketing fluff, no marketing emails except the one you asked for.</p>
+      <form class="hero-actions" style="justify-content: center; max-width: 460px; margin: 0 auto;" onsubmit="event.preventDefault(); this.querySelector('button').textContent='Subscribed ✓'; this.querySelector('button').disabled=true;">
+        <input type="email" required class="form-control" placeholder="you@studio.com" style="flex:1;" />
+        <button type="submit" class="btn btn-primary">Subscribe</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="brand"><svg class="brand-logo" viewBox="0 0 56 56" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="fdg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#00d4ff"/><stop offset="1" stop-color="#7c3aed"/></linearGradient></defs><path d="M28 4 L48 16 L48 40 L28 52 L8 40 L8 16 Z" fill="none" stroke="url(#fdg)" stroke-width="2"/><circle cx="28" cy="28" r="5" fill="url(#fdg)"/></svg><div><div class="brand-name">dingfeng<span style="color:var(--color-accent)">trad</span></div><div class="brand-tag">Tech · Design · Privacy</div></div></a>
+        <p>An R&D collective crafting minimalist, privacy-first digital products for the global App Store ecosystem. Headquartered at the Virginia Innovation Center, USA.</p>
+        <p style="font-family: var(--font-mono); font-size: 0.8rem; color: var(--color-text-3);">contact@dingfengtrad.com</p>
+      </div>
+      <div class="footer-col"><h5>Studio</h5><ul><li><a href="index.html">Home</a></li><li><a href="services.html">Services</a></li><li><a href="advantages.html">Advantages</a></li><li><a href="updates.html">Updates</a></li><li><a href="contact.html">Contact</a></li></ul></div>
+      <div class="footer-col"><h5>Capabilities</h5><ul><li><a href="services.html#prog-audio">Programmatic Audio</a></li><li><a href="services.html#visual-ux">Visual Interaction</a></li><li><a href="services.html#privacy">Privacy Engineering</a></li><li><a href="services.html#automation">Local Automation</a></li><li><a href="services.html#creative">Creative Capture</a></li></ul></div>
+      <div class="footer-col"><h5>Legal</h5><ul><li><a href="privacy.html">Privacy Policy</a></li><li><a href="terms.html">Terms of Service</a></li><li><a href="privacy.html#cookies">Cookies & Tracking</a></li><li><a href="privacy.html#children">Children's Privacy</a></li></ul></div>
+    </div>
+    <div class="footer-bottom"><div>© 2024–2026 dingfengtrad.com · All rights reserved.</div><div>Virginia Innovation Center · United States of America</div></div>
+  </div>
+</footer>
+
+<button class="back-top" aria-label="Back to top"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 19V5M5 12l7-7 7 7"/></svg></button>
+<script src="js/main.js"></script>
+<script src="js/particles.js"></script>
+</body>
+</html>
